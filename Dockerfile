@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 # Copy the built JAR file into the container
-COPY target/chatspot.jar app.jar
+COPY target/chatspot.jar 
 
 # Expose the application port
 EXPOSE 8080
