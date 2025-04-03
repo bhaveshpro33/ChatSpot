@@ -1,0 +1,7 @@
+spring:
+  data:
+    mongodb:
+      uri: ${MONGODB_URI}
+      
+server:
+  port: ${PORT:8080}  # Render uses 8080 by default
