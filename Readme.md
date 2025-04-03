@@ -29,7 +29,7 @@ Example:
 - **John** publishes a message to `marianne/queue/messages`.
 - **Marianne** subscribes to that topic and receives messages in real-time.
 
-![MQTT Pub/Sub Model](src\main\resources\static\img\MQTT.png)
+![MQTT Pub/Sub Model](MQTT.png)
 
 ### Docker for Deployment
 The application can be **containerized using Docker**, allowing it to run consistently across different environments. Docker makes it easy to deploy **ChatSpot** in any cloud platform.
